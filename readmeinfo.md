@@ -50,30 +50,44 @@ Bu dosya, GitHub ve benzeri platformlarda kullanılan **Markdown** biçimlendirm
 Başlık oluşturmak için satırın başına `#` işareti yazılır. `#` sayısı arttıkça başlığın seviyesi küçülür.
 
 
-### `# Ana Başlık`
-# Ana Başlık
+### `# Birinci Seviye`
+# Birinci Seviye
 
----
 
 ### `## İkinci Seviye`
 ## İkinci Seviye
 
----
 
 ### `### Üçüncü Seviye`
 ### Üçüncü Seviye
 
----
 
 ### `#### Dördüncü Seviye`
 #### Dördüncü Seviye
 
----
 
 ### `##### Beşinci Seviye`
 ##### Beşinci Seviye
 
----
 
 ### `###### Altıncı Seviye`
 ###### Altıncı Seviye
+
+
+
+## 3. Kalın, İtalik ve Üstü Çizili Yazılar
+
+Metindeki önemli kelimeleri vurgulamak için kullanılır.
+
+| Markdown yazımı   | Anlamı                      |
+|---                |---                          |
+| `**önemli**`      | **Kalın yazı**              |
+| `*not*`           | *İtalik yazı*               |
+| `__önemli__`      | __Kalın yazı__              |
+| `_not_`           | _İtalik yazı_               |
+| `~~eski bilgi~~`  | ~~Üstü çizili yazı~~        |
+| `***vurgulu***`   | ***Kalın ve italik yazı***  |
+
+`#a`
+`##a`
+`###a`
