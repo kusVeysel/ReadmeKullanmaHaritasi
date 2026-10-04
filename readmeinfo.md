@@ -49,11 +49,12 @@ Bu dosya, GitHub ve benzeri platformlarda kullanılan **Markdown** biçimlendirm
 
 Başlık oluşturmak için satırın başına `#` işareti yazılır. `#` sayısı arttıkça başlığın seviyesi küçülür.
 
-|#|seviye|
-|---|---|
-|#     |  Ana Başlık      |
-|##    |  İkinci Seviye   |  
-|###   |  Üçüncü Seviye   |
-|####  |  Dördüncü Seviye |
-|##### |  Beşinci Seviye  |
-|######|  Altıncı Seviye  |
+
+| Markdown Kodu | Çıktı |
+| :--- | :--- |
+| `# Ana Başlık` | # Ana Başlık |
+| `## İkinci Seviye` | ## İkinci Seviye |
+| `### Üçüncü Seviye` | ### Üçüncü Seviye |
+| `#### Dördüncü Seviye` | #### Dördüncü Seviye |
+| `##### Beşinci Seviye` | ##### Beşinci Seviye |
+| `###### Altıncı Seviye` | ###### Altıncı Seviye |
