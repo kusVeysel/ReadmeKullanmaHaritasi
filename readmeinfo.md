@@ -104,7 +104,6 @@ Web adresleri yönlendirmek ve görsel eklemek için kullanılır.
 | Markdown Yazımı | Çıktı |
 | :--- | :--- |
 | `[GitHub](https://github.com)` | [GitHub](https://github.com) |
-| `![Logo](https://via.placeholder.com/20)` | ![Logo](https://via.placeholder.com/20) |
 
 ---
 
@@ -112,7 +111,7 @@ Web adresleri yönlendirmek ve görsel eklemek için kullanılır.
 
 Satır içi veya çok satırlı kodları biçimlendirmek için kullanılır.
 
-| Markdown Yazımı | Çıktı |
-| :--- | :--- |
-| Satır içi: `` `git status` `` | Satır içi: `git status` |
-| Toplu kod:<br>`` ```bash ``<br>`cd ..`<br>`` ``` `` | ```bash<br>cd ..<br>``` |
+```bash
+cd ..
+```
+[x]
