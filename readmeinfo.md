@@ -109,9 +109,8 @@ Web adresleri yönlendirmek ve görsel eklemek için kullanılır.
 
 ## 8. Kod Blokları
 
-Satır içi veya çok satırlı kodları biçimlendirmek için kullanılır.
+Hazır terminal kodları.
 
 ```bash
-cd ..
+```bash``` ile yapılır
 ```
-[x]
