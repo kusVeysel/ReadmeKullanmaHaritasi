@@ -109,8 +109,12 @@ Web adresleri yönlendirmek ve görsel eklemek için kullanılır.
 
 ## 8. Kod Blokları
 
-Hazır terminal kodları.
+Hazır terminal kodları.```bash``` ile yapılır
 
 ```bash
-```bash``` ile yapılır
+ cd ..
+```
+
+```python
+ print("Hello")
 ```
