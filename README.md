@@ -94,6 +94,25 @@ Verileri sütunlar halinde düzenli göstermek için kullanılır. Sütun hizala
 
 GitHub Markdown üzerinde renklendirilmiş özel bildirim kutuları oluşturmak için `>` karakteri ile birlikte özel etiketler kullanılır.
 
+### Sözdizimi
+
+```markdown
+    > [!NOTE]
+    > Yazı
+
+    > [!TIP]
+    > Yazı
+
+    > [!IMPORTANT]
+    > Yazı
+
+    > [!WARNING]
+    > Yazı
+
+    > [!CAUPTİON]
+    > Yazı
+```
+
 > [!NOTE]
 > **Bilgilendirme:** Genel bilgiler ve notlar için kullanılır.
 
