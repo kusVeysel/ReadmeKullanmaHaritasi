@@ -20,7 +20,7 @@ Bu rehber, GitHub ve diğer destekleyen platformlarda **Markdown** dilini etkin 
 
 ## 🏷️ Başlıklar
 
-Başlık oluşturmak için satırın başına `#` işareti konur. `#` sayısı arttıkça başlık seviyesi küçülür (1-6 arası).
+Başlık oluşturmak için satırın başına `#` işareti konur. `#` sayısı arttıkça başlık seviyesi küçülür (1-6 arası).1 ve 2.seviye başlıklar için başlıklardan sonra otomatik `---`(hr) olur
 
 # 1. Seviye Başlık
 ## 2. Seviye Başlık
@@ -100,17 +100,17 @@ GitHub Markdown üzerinde renklendirilmiş özel bildirim kutuları oluşturmak 
 > [!NOTE]
 > Yazı
 
-    > [!TIP]
-    > Yazı
+> [!TIP]
+> Yazı
 
-    > [!IMPORTANT]
-    > Yazı
+> [!IMPORTANT]
+> Yazı
 
-    > [!WARNING]
-    > Yazı
+> [!WARNING]
+> Yazı
 
-    > [!CAUPTİON]
-    > Yazı
+> [!CAUPTİON]
+> Yazı
 ```
 
 > [!NOTE]
