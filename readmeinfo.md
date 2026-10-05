@@ -4,15 +4,6 @@ Bu dosya, GitHub ve benzeri platformlarda kullanılan **Markdown** biçimlendirm
 
 > [!NOTE]
 > Markdown, metnin görünümünü düzenler. Kod bloklarının içine yazılan komutlar kendiliğinden çalışmaz; yalnızca gösterilir.
-## Başlıklar
-Başlık oluşturmak için satırın başına `#` işareti yazılır. İşaret sayısı arttıkça başlık seviyesi küçülür(1-6).
-
-# 1.Seviye
-# 2.Seviye
-# 3.Seviye
-# 4.Seviye
-# 5.Seviye
-# 6.Seviye
 
 
 ## hr - yatay çizgi
@@ -21,39 +12,55 @@ Başlık oluşturmak için satırın başına `#` işareti yazılır. İşaret s
 
 ---
 
+## Başlıklar
+Başlık oluşturmak için satırın başına `#` işareti yazılır. İşaret sayısı arttıkça başlık seviyesi küçülür(1-6).Her başlıktan sonra otomarik `---` hr atar sistem
+
+# 1.Seviye
+## 2.Seviye
+### 3.Seviye
+#### 4.Seviye
+##### 5.Seviye
+###### 6.Seviye
+---
+
 ## Kalın, İtalik ve Üstü Çizili Yazılar
 
 Metindeki önemli kelimeleri vurgulamak için kullanılır.
-- `** **`: kalın yapar.
-- `__ __` kalın yapar.
-- `* *`: italik yapar.
-- `_ _`: italik yapar.
-- `~~ ~~`: üstü çizgili yapar
+- `** **`: Kalın yapar.
+- `__ __` Kalın yapar.
+- `* *`: İtalik yapar.
+- `_ _`: İtalik yapar.
+- `~~ ~~`: Üstü çizgili yapar
 - `*** ***`: Hem kalın hem italik yapar
 
 Örnekler:
-**KALIN**
-__KALIN__
-*İtalik*
-_İtalik_
-~~Üstü Çizgili~~
-***Hem Kalın hem İtalik***
+- `**KALIN**`: **KALIN**     
+- `__KALIN__`: __KALIN__ 
+- `*İtalik*`: *İtalik*
+- `_İtalik_`: _İtalik_
+- `~~Üstü Çizgili~~`: ~~Üstü Çizgili~~
+- `***Hem Kalın hem İtalik***`: ***Hem Kalın hem İtalik***
 
 ---
 
 ## Tablolar
 Verileri düzenli sütunlarda göstermek ve hizalamak için kullanılır.
 
-`|Başlık1|Başlık2|`
-`|---|---|`
-`|Yazı1|Yazı2|`
-`|Yazı1|Yazı2|`
-`|Yazı1|Yazı2|`
+Temel Yapı: 
+`|Başlık1|Başlık2|` <br>
+`|---|---|` <br>
+`|Yazı1|Yazı2|` <br>
+`|Yazı1|Yazı2|` <br>
+`|Yazı1|Yazı2|` <br>
 
 - `:`
 `|:---|:---:|---:|`: Sırayla yazıyı sola ortaya ve sağa dayar 
 
 Örnek:
+`|Başlık1|Başlık2|Başlık3|` <br>
+`|:---|:---:|---:|` <br>
+`|A|B|C|` <br>
+`|D|E|F|` <br>
 
 |Başlık1|Başlık2|Başlık3|
 |:---|:---:|---:|
@@ -72,19 +79,19 @@ Verileri düzenli sütunlarda göstermek ve hizalamak için kullanılır.
 `>`: ile beraber kullanılır. 
 
 Örnekler:
-[!Note]
+> [!NOTE]
 > Bilgilendirme notu
 
-[!TIP]
+> [!TIP]
 > Kullanışlı bir ipucu
 
-[!IMPORTANT]
+> [!IMPORTANT]
 > Önemli bir bilgi
 
-[!WARNING]
+> [!WARNING]
 > Olası bir sorun uyarısı
 
-[!CAUTİON]
+> [!CAUTİON]
 > Riskli işlem uyarısı
 
 ---
@@ -102,6 +109,7 @@ Web adresleri yönlendirmek için kullanılır.
 `3 tane(``) ile beraber yazılır`,3 üstte 3 alttan olacak şekilde üstteki 3 tırnaktan sonra kod tipi yazılır
 
 - bash(terminal için)
+- markdown(markdown için)
 - csharp(csharp için)
 - c(c için)
 - python(python için)
@@ -115,6 +123,13 @@ Web adresleri yönlendirmek için kullanılır.
 - yaml(yaml için)
 - typescript(typescript için)
 - ...
+
+Temel Yapı:
+```markdown
+```tip
+Yazı
+```
+```
 
 Örnekler:
 ```bash
