@@ -75,7 +75,7 @@ Verileri sütunlar halinde düzenli göstermek için kullanılır. Sütun hizala
 
 ### Sözdizimi
 ```markdown
-| Sol Sütun | Orta Sütun | Sağ Sütun |
+| 1.Sütun | 2.Sütun | 3.Sütun |
 | :--- | :---: | ---: |
 | Sola Hizalı | Ortalanmış | Sağa Hizalı |
 | Veri A | Veri B | Veri C |
@@ -83,7 +83,7 @@ Verileri sütunlar halinde düzenli göstermek için kullanılır. Sütun hizala
 
 ### Önizleme
 
-| Sol Sütun | Orta Sütun | Sağ Sütun |
+| 1.Sütun | 2.Sütun | 3.Sütun |
 | :--- | :---: | ---: |
 | Sola Hizalı | Ortalanmış | Sağa Hizalı |
 | Veri A | Veri B | Veri C |
@@ -125,11 +125,11 @@ Kod parçacıklarını vurgulamak için 3 adet ters tırnak (```) kullanılır. 
 - `sql`
 
 ### Sözdizimi
-```markdown
-```kod_tipi
-Kod
+````
+```yazilacak_kod_dili
+Kod buraya yazılır
 ```
-```
+````
 
 ### Örnekler
 
