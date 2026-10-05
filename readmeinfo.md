@@ -1,145 +1,133 @@
-# 📘 README.md — Markdown Kullanım Rehberi
+# 📘 Markdown Biçimlendirme Rehberi
 
-Bu dosya, GitHub ve benzeri platformlarda kullanılan **Markdown** biçimlendirme dilini kapsamlı örneklerle açıklar.
+Bu rehber, GitHub ve diğer destekleyen platformlarda **Markdown** dilini etkin bir şekilde kullanabilmeniz için hazırlanmış kapsamlı bir kılavuzdur.
 
 > [!NOTE]
-> Markdown, metnin görünümünü düzenler. Kod bloklarının içine yazılan komutlar kendiliğinden çalışmaz; yalnızca gösterilir.
-
-
-## hr - yatay çizgi
-
-`---`: `<hr>` ile aynı, yatada çizgi çeker
+> Markdown, metinlerinizi biçimlendirip görsel olarak düzenlemenizi sağlar. Kod blokları içinde yazılan komutlar otomatik olarak çalıştırılmaz, yalnızca kod biçiminde görüntülenir.
 
 ---
 
-## Başlıklar
-Başlık oluşturmak için satırın başına `#` işareti yazılır. İşaret sayısı arttıkça başlık seviyesi küçülür(1-6).Her başlıktan sonra otomarik `---` hr atar sistem
-
-# 1.Seviye
-## 2.Seviye
-### 3.Seviye
-#### 4.Seviye
-##### 5.Seviye
-###### 6.Seviye
----
-
-## Kalın, İtalik ve Üstü Çizili Yazılar
-
-Metindeki önemli kelimeleri vurgulamak için kullanılır.
-- `** **`: Kalın yapar.
-- `__ __` Kalın yapar.
-- `* *`: İtalik yapar.
-- `_ _`: İtalik yapar.
-- `~~ ~~`: Üstü çizgili yapar
-- `*** ***`: Hem kalın hem italik yapar
-
-Örnekler:
-- `**KALIN**`: **KALIN**     
-- `__KALIN__`: __KALIN__ 
-- `*İtalik*`: *İtalik*
-- `_İtalik_`: _İtalik_
-- `~~Üstü Çizgili~~`: ~~Üstü Çizgili~~
-- `***Hem Kalın hem İtalik***`: ***Hem Kalın hem İtalik***
+## 📑 İçindekiler
+- [Başlıklar](#-başlıklar)
+- [Metin Biçimlendirme](#-metin-biçimlendirme)
+- [Yatay Çizgi](#-yatay-çizgi)
+- [Bağlantılar ve Görseller](#-bağlantılar)
+- [Tablolar](#-tablolar)
+- [Uyarı Kutuları (Alerts)](#-uyarı-kutuları-alerts)
+- [Kod Blokları](#-kod-blokları)
 
 ---
 
-## Tablolar
-Verileri düzenli sütunlarda göstermek ve hizalamak için kullanılır.
+## 🏷️ Başlıklar
 
-Temel Yapı: 
-`|Başlık1|Başlık2|` <br>
-`|---|---|` <br>
-`|Yazı1|Yazı2|` <br>
-`|Yazı1|Yazı2|` <br>
-`|Yazı1|Yazı2|` <br>
+Başlık oluşturmak için satırın başına `#` işareti konur. `#` sayısı arttıkça başlık seviyesi küçülür (1-6 arası).
 
-- `:`
-`|:---|:---:|---:|`: Sırayla yazıyı sola ortaya ve sağa dayar 
-
-Örnek:
-`|Başlık1|Başlık2|Başlık3|` <br>
-`|:---|:---:|---:|` <br>
-`|A|B|C|` <br>
-`|D|E|F|` <br>
-
-|Başlık1|Başlık2|Başlık3|
-|:---|:---:|---:|
-|A|B|C|
-|D|E|F|
+```markdown
+# 1. Seviye Başlık
+## 2. Seviye Başlık
+### 3. Seviye Başlık
+#### 4. Seviye Başlık
+##### 5. Seviye Başlık
+###### 6. Seviye Başlık
+```
 
 ---
 
-## Uyarı Kutuları
+## ✍️ Metin Biçimlendirme
 
-`[!NOTE]`: ℹ️ Bilgilendirme notu
-`[!TIP]`: 💡 Kullanışlı bir ipucu
-`[!IMPORTANT]`: ❗ Önemli bilgi
-`[!WARNING]` ⚠️ Olası bir sorun uyarısı
-`[!CAUTION]`: 🛑 Riskli işlem uyarısı
-`>`: ile beraber kullanılır. 
+Metin içerisindeki önemli vurguları öne çıkarmak için aşağıdaki sözdizimleri kullanılır:
 
-Örnekler:
+| Biçim | Markdown Sözdizimi | Önizleme |
+| :--- | :--- | :--- |
+| **Kalın** | `**Kalın**` veya `__Kalın__` | **Kalın** |
+| *İtalik* | `*İtalik*` veya `_İtalik_` | *İtalik* |
+| ~~Üstü Çizgili~~ | `~~Üstü Çizgili~~` | ~~Üstü Çizgili~~ |
+| ***Kalın & İtalik*** | `***Metin***` | ***Kalın & İtalik*** |
+
+---
+
+## ➖ Yatay Çizgi
+
+Sayfada bölümler arası geçiş yapmak ve görsel bir ayrım oluşturmak için üç adet tire `---` kullanılır (`<hr>` etiketine karşılık gelir).
+
+```markdown
+---
+```
+
+---
+
+## 🔗 Bağlantılar
+
+Web sitelerine yönlendirme yapmak için aşağıdaki yapı kullanılır:
+
+```markdown
+[Bağlantı Metni](URL)
+```
+
+**Örnek:**
+- Kodu: `[GitHub](https://github.com)`
+- Görünümü: [GitHub](https://github.com)
+
+---
+
+## 📊 Tablolar
+
+Verileri sütunlar halinde düzenli göstermek için kullanılır. Sütun hizalamaları ikinci satırdaki `:` işaretinin konumuna göre belirlenir.
+
+### Sözdizimi
+```markdown
+| Sol Sütun | Orta Sütun | Sağ Sütun |
+| :--- | :---: | ---: |
+| Sola Hizalı | Ortalanmış | Sağa Hizalı |
+| Veri A | Veri B | Veri C |
+```
+
+### Önizleme
+
+| Sol Sütun | Orta Sütun | Sağ Sütun |
+| :--- | :---: | ---: |
+| Sola Hizalı | Ortalanmış | Sağa Hizalı |
+| Veri A | Veri B | Veri C |
+
+---
+
+## 💡 Uyarı Kutuları (Alerts)
+
+GitHub Markdown üzerinde renklendirilmiş özel bildirim kutuları oluşturmak için `>` karakteri ile birlikte özel etiketler kullanılır.
+
 > [!NOTE]
-> Bilgilendirme notu
+> **Bilgilendirme:** Genel bilgiler ve notlar için kullanılır.
 
 > [!TIP]
-> Kullanışlı bir ipucu
+> **İpucu:** Kullanışlı tavsiyeler ve pratik çözümler için önerilir.
 
 > [!IMPORTANT]
-> Önemli bir bilgi
+> **Önemli:** Kullanıcının kaçırmaması gereken detaylar için tercih edilir.
 
 > [!WARNING]
-> Olası bir sorun uyarısı
+> **Uyarı:** Dikkat edilmesi gereken olası aksaklıkları belirtir.
 
-> [!CAUTİON]
-> Riskli işlem uyarısı
+> [!CAUTION]
+> **Tehlike:** Riskli veya yıkıcı sonuçlar doğurabilecek işlemler için kullanılır.
 
 ---
 
-## Bağlantılar
-Web adresleri yönlendirmek için kullanılır.
+## 💻 Kod Blokları
 
-`[Metin](URL)`
+Kod parçacıklarını vurgulamak için 3 adet ters tırnak (```) kullanılır. Üstteki tırnağın yanına kod dili yazılarak sözdizimi renklendirmesi (syntax highlighting) sağlanır.
 
-Örnek:
-`[GitHub](https://githup.com)`: [GitHub](https://githup.com)
+### Sık Kullanılan Dil Etiketleri
+- `bash` (Terminal komutları)
+- `javascript` / `typescript`
+- `csharp` / `c` / `cpp`
+- `python`
+- `html` / `css`
+- `json` / `yaml` / `xml`
+- `sql`
 
-## Kod Blokları
+### Örnekler
 
-`3 tane(``) ile beraber yazılır`,3 üstte 3 alttan olacak şekilde üstteki 3 tırnaktan sonra kod tipi yazılır
-
-- bash(terminal için)
-- markdown(markdown için)
-- csharp(csharp için)
-- c(c için)
-- python(python için)
-- html(html için)
-- css(css için)
-- javascript(javascript için)
-- json(json için)
-- sql(sql için)
-- text(text için)
-- xml(xml için)
-- yaml(yaml için)
-- typescript(typescript için)
-- ...
-
-Temel Yapı:
-```markdown
-```tip
-Yazı
-```
-```
-
-Örnekler:
-```bash
-cd ..
-```
-
-```text
-Metin
-```
-
+**C# Örneği:**
 ```csharp
 using System;
 
@@ -152,15 +140,18 @@ class Program
 }
 ```
 
+**Python Örneği:**
 ```python
 print("Merhaba Dünya!")
 ```
 
+**JavaScript Örneği:**
 ```javascript
 const mesaj = "Merhaba Dünya!";
 console.log(mesaj);
 ```
 
+**JSON Örneği:**
 ```json
 {
   "name": "CoreApi",
