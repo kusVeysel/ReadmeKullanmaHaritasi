@@ -97,8 +97,8 @@ GitHub Markdown üzerinde renklendirilmiş özel bildirim kutuları oluşturmak 
 ### Sözdizimi
 
 ```markdown
-    > [!NOTE]
-    > Yazı
+> [!NOTE]
+> Yazı
 
     > [!TIP]
     > Yazı
