@@ -22,14 +22,13 @@ Bu rehber, GitHub ve diğer destekleyen platformlarda **Markdown** dilini etkin 
 
 Başlık oluşturmak için satırın başına `#` işareti konur. `#` sayısı arttıkça başlık seviyesi küçülür (1-6 arası).
 
-```markdown
 # 1. Seviye Başlık
 ## 2. Seviye Başlık
 ### 3. Seviye Başlık
 #### 4. Seviye Başlık
 ##### 5. Seviye Başlık
 ###### 6. Seviye Başlık
-```
+
 
 ---
 
@@ -124,6 +123,13 @@ Kod parçacıklarını vurgulamak için 3 adet ters tırnak (```) kullanılır. 
 - `html` / `css`
 - `json` / `yaml` / `xml`
 - `sql`
+
+### Sözdizimi
+```markdown
+```kod_tipi
+Kod
+```
+```
 
 ### Örnekler
 
